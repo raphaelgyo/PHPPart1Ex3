@@ -1,7 +1,3 @@
-<!--ici on insère le PHP qui n'est pas lié à l'affichage-->
-<?php
-//Déclaration de la variable km
-?>
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
   <head>
@@ -9,15 +5,24 @@
     <title>PHP Partie 1 Exercice 3</title>
   </head>
   <body>
-    <p>
     <!--ici on insère le PHP qui est lié à l'affichage-->
+    <p>
       <?php
-        $km = 1;
-        echo $km;
-        $km = 3;
-        echo $km;
-        $km = 125;
-        echo $km;
+      //Déclaration de la variable et initialisation par 1
+      $km = 1;
+      echo $km;
+      ?>
+    </p>
+    <p>
+      <?php
+      $km = 3;
+      echo $km;
+      ?>
+    </p>
+    <p>
+      <?php
+      $km = 125;
+      echo $km;
       ?>
     </p>
   </body>
